@@ -1,2 +1,3 @@
 # samples
-test
+
+java8
