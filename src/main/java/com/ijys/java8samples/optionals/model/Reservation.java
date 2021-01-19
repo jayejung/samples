@@ -4,15 +4,15 @@ import java.util.Date;
 
 public class Reservation {
 	private Long id;
-	private Date data;
+	private Date date;
 	private Member member;
 
 	public Reservation() {
 	}
 
-	public Reservation(Long id, Date data, Member member) {
+	public Reservation(Long id, Date date, Member member) {
 		this.id = id;
-		this.data = data;
+		this.date = date;
 		this.member = member;
 	}
 
@@ -24,12 +24,12 @@ public class Reservation {
 		this.id = id;
 	}
 
-	public Date getData() {
-		return data;
+	public Date getDate() {
+		return date;
 	}
 
-	public void setData(Date data) {
-		this.data = data;
+	public void setDate(Date date) {
+		this.date = date;
 	}
 
 	public Member getMember() {
@@ -44,7 +44,7 @@ public class Reservation {
 	public String toString() {
 		return "Order{" +
 				"id=" + id +
-				", data=" + data +
+				", data=" + date +
 				", member=" + member +
 				'}';
 	}
