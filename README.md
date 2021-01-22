@@ -18,6 +18,8 @@ java8
 > List의 get method의 try-catch block과 null check를 Optional로 변경.</pre>
 
 > ### lambda
+> * com.ijys.java8sample.lambda.AdminUserCompareSample
+> <pre>legacy 방식의 comparator 구현을 lambda로 변경</pre>
 
 
 > ### functional interface
