@@ -23,7 +23,7 @@ public class AdminUserCompareSample {
 			}
 		};
 
-		// Comparator는 compare추상 메소드 하나만 가지고 있는 functional interface이므로 noise 코드를 제거하면,
+		// Comparator는 compare추상 메소드 하나만 가지고 있는(SAM-Single Abstract Method) functional interface이므로 noise 코드를 제거하면,
 		// 아래와 같은 lambda expression으로 변경 가능
 		Comparator<User> lambdaComparator = (o1, o2) -> {
 			if (o1.getAge() > o2.getAge()) {
