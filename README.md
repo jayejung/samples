@@ -23,6 +23,15 @@ java8
 
 
 > ### functional interface
+> * com.ijys.java8sample.functionalinterfaces.example.FunctionalInterfaceExample
+> * com.ijys.java8sample.functionalinterfaces.FunctionExample
+> <pre>Function example</pre>
+> * com.ijys.java8sample.functionalinterfaces.PredicateExample
+> <pre>Predicate example</pre>
+> * com.ijys.java8sample.functionalinterfaces.ConsumerExample
+> <pre>ConsumerExample</pre>
+> * com.ijys.java8sample.functionalinterfaces.SupplierExample
+> <pre>SupplerExample</pre>
 
 
 > ### stream
