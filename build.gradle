@@ -7,8 +7,12 @@ apply plugin: 'java'
 group 'com.ijys.example'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+tasks.withType(JavaCompile) {
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    options.compilerArgs = ["-Xlint:unchecked"]
+}
 
 sourceSets {
     main {
