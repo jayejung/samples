@@ -44,6 +44,8 @@ java8
 > * Stream 시작전, function...
 > <pre>com.ijys.java8sample.stream.identityfunction.Example</pre>
 > * Function.apply & Function.identify
-> <pre>com.ijys.java8sample.sream.StreamExample1</pre>
+> <pre>com.ijys.java8sample.stream.StreamExample1</pre>
 > * repl
-> 
+> <pre>com.ijys.java8sample.stream.StreamExample2</pre>
+> * imperative vs. functional
+> * Stream 사용과 직접 filter, map 구현시 효율성 비교
