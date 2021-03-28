@@ -40,3 +40,10 @@ java8
 > * product의 price를 discount 시키고, filtering with Generic
 
 > ### stream
+> <pre>com.ijys.java8sample.stream.StreamPrelude</pre>
+> * Stream 시작전, function...
+> <pre>com.ijys.java8sample.stream.identityfunction.Example</pre>
+> * Function.apply & Function.identify
+> <pre>com.ijys.java8sample.sream.StreamExample1</pre>
+> * repl
+> 
