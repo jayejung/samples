@@ -74,7 +74,7 @@ public class StreamExamples2 {
 
 		/*
 		Stream은 lazy colleciton builder
-		모든 필터와 map을 계속 수행하지 않고... lazy하게 수행함.
+		모든 필터와 map을 계속 순차적으로 수행하지 않고... lazy하게 수행함.
 		그래서 성능이 나쁘지 않음
 		 */
 
