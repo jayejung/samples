@@ -52,3 +52,5 @@ java8
 > <pre>com.ijys.java8sample.stream.StreamExample3</pre>
 > * intermediate operation method & terminal operation method
 > * external iterate & internal iterate
+> <pre>com.ijys.java8sample.stream.streamExample4</pre>
+> * more realistic example
