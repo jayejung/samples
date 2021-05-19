@@ -18,39 +18,50 @@ java8
     > List의 get method의 try-catch block과 null check를 Optional로 변경
 
 > ### lambda
-> <pre>com.ijys.java8sample.lambda.AdminUserCompareSample</pre>
+> <pre>com.ijys.java8samples.lambda.AdminUserCompareSample</pre>
 > * legacy 방식의 comparator 구현을 lambda로 변경
 
 > ### functional interface
-> <pre>com.ijys.java8sample.functionalinterfaces.example.FunctionalInterfaceEx</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.example.FunctionalInterfaceEx</pre>
 > * functionalInterface example
-> <pre>com.ijys.java8sample.functionalinterfaces.FunctionExample</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.FunctionExample</pre>
 > * Function example
-> <pre>com.ijys.java8sample.functionalinterfaces.PredicateExample</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.PredicateExample</pre>
 > * Predicate example
-> <pre>com.ijys.java8sample.functionalinterfaces.ConsumerExample</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.ConsumerExample</pre>
 > * ConsumerExample
-> <pre>com.ijys.java8sample.functionalinterfaces.SupplierExample</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.SupplierExample</pre>
 > * SupplierExample
-> <pre>com.ijys.java8sample.functionalinterfaces.real.RealExample</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.real.RealExample</pre>
 > * real life에서 사용
-> <pre>com.ijys.java8sample.functionalinterfaces.real2.ProductExample</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.real2.ProductExample</pre>
 > * product의 price를 filtering
-> <pre>com.ijys.java8sample.functionalinterfaces.real2.DiscountedProductExample</pre>
+> <pre>com.ijys.java8samples.functionalinterfaces.real2.DiscountedProductExample</pre>
 > * product의 price를 discount 시키고, filtering with Generic
 
 > ### stream
-> <pre>com.ijys.java8sample.stream.StreamPrelude</pre>
+> <pre>com.ijys.java8samples.stream.StreamPrelude</pre>
 > * Stream 시작전, function...
-> <pre>com.ijys.java8sample.stream.identityfunction.Example</pre>
+> <pre>com.ijys.java8samples.stream.identityfunction.Example</pre>
 > * Function.apply & Function.identify
-> <pre>com.ijys.java8sample.stream.StreamExample1</pre>
+> <pre>com.ijys.java8samples.stream.StreamExamples1</pre>
 > * repl
-> <pre>com.ijys.java8sample.stream.StreamExample2</pre>
+> <pre>com.ijys.java8samples.stream.StreamExamples2</pre>
 > * imperative vs. functional
 > * Stream 사용과 직접 filter, map 구현시 효율성 비교
-> <pre>com.ijys.java8sample.stream.StreamExample3</pre>
+> <pre>com.ijys.java8samples.stream.StreamExamples3</pre>
 > * intermediate operation method & terminal operation method
 > * external iterate & internal iterate
-> <pre>com.ijys.java8sample.stream.streamExample4</pre>
+> <pre>com.ijys.java8samples.stream.streamExamples4</pre>
 > * more realistic example
+> <pre>com.ijys.java8samples.stream.parallel.StreamExamples5Parallel</pre>
+> * parallel sum의 side effect 확인 (race condition)
+> * parallel 연산의 경우, 사용하는 core 갯수에 비례하여 시간이 줄어들고 있음
+> * -Djava.util.concurrent.ForkJoinPool.common.parallelism=20 옵션은 openJDK에서 안먹는 듯?
+> <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformance</pre>
+> * Gauss method, iterative method, stream method, parallel method의 성능 비교
+> * 예제가 실용적이지 않아서 stream, parallel method가 성능이 가장 많이 떨어짐
+> > <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformance2</pre>
+> * 조금 더 실제 상황에 맞게... 고수준의 연산이 있어서 연산사이에 시간이 걸린다면 parallel이 훨씬 빠르게 동작
+> > <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformancePractical</pre>
+> * StreamExamples5ParallelPerformance2에 대한 좀 더 현실적인 example
