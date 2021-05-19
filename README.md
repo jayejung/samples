@@ -61,7 +61,7 @@ java8
 > <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformance</pre>
 > * Gauss method, iterative method, stream method, parallel method의 성능 비교
 > * 예제가 실용적이지 않아서 stream, parallel method가 성능이 가장 많이 떨어짐
-> > <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformance2</pre>
+> <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformance2</pre>
 > * 조금 더 실제 상황에 맞게... 고수준의 연산이 있어서 연산사이에 시간이 걸린다면 parallel이 훨씬 빠르게 동작
-> > <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformancePractical</pre>
+> <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformancePractical</pre>
 > * StreamExamples5ParallelPerformance2에 대한 좀 더 현실적인 example
