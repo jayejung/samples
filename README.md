@@ -65,3 +65,7 @@ java8
 > * 조금 더 실제 상황에 맞게... 고수준의 연산이 있어서 연산사이에 시간이 걸린다면 parallel이 훨씬 빠르게 동작
 > <pre>com.ijys.java8samples.stream.parallel.StreamExamples5ParallelPerformancePractical</pre>
 > * StreamExamples5ParallelPerformance2에 대한 좀 더 현실적인 example
+
+> <span style='color:red'>**Parallel Stream사용 시 주의점**</span><br/>
+> 더 느릴 수도 있고... 빠를 수도 있고.. 감으로 하지 말고, 내 경우에 맞는지 테스트(벤치마크)를 해라.<br/>
+> eg. [JMH 성능 벤치마크 툴](http://openjdk.java.net/projects/code-tools/jmh/)
