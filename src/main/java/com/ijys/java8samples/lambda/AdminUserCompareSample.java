@@ -11,7 +11,6 @@ public class AdminUserCompareSample {
 		User svcUser = new SvcUser("u1", "jaye", 18, "level1");
 		User admUser = new Admin("a1", "jj", 20, "admin1");
 
-
 		Comparator<User> legacyComparator = new Comparator<User>() {
 			@Override
 			public int compare(User o1, User o2) {

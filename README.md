@@ -29,7 +29,7 @@ java8
 > <pre>com.ijys.java8samples.functionalinterfaces.PredicateExample</pre>
 > * Predicate example
 > <pre>com.ijys.java8samples.functionalinterfaces.ConsumerExample</pre>
-> * ConsumerExample
+> * Consumer example
 > <pre>com.ijys.java8samples.functionalinterfaces.SupplierExample</pre>
 > * SupplierExample
 > <pre>com.ijys.java8samples.functionalinterfaces.real.RealExample</pre>
@@ -70,6 +70,7 @@ java8
 > 더 느릴 수도 있고... 빠를 수도 있고.. 감으로 하지 말고, 내 경우에 맞는지 테스트(벤치마크)를 해라.<br/>
 > eg. [JMH 성능 벤치마크 툴](http://openjdk.java.net/projects/code-tools/jmh/)
 
+> ### closure
 > <pre>com.ijys.java8samples.closure.ClosureExamples</pre>
 > * java8 이전에서는 anonymous class에서 참조하는 외부의 variable은 final로 선언되었어야 했음.
 > * java8 에서는 final로 선언하지 않아도, anonymous class 혹은 lambda expression으로 참조가 가능함.
